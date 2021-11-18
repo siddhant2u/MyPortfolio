@@ -1,48 +1,25 @@
-@font-face {
-  font-family: "Poppins Medium";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Medium.ttf");
-}
+import { ContactMailIcon, CallIcon, PinDropIcon, GitHubIcon, LinkedInIcon, TwitterIcon} from "@material-ui/icons";
 
-@font-face {
-  font-family: "Poppins Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Regular.ttf");
-}
 
-@font-face {
-  font-family: "Poppins SemiBold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-SemiBold.ttf");
-}
+<ContactMailIcon className='icon'/>
 
-@font-face {
-  font-family: "Poppins Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Bold.ttf");
-}
 
-@font-face {
-  font-family: "Poppins ExtraBold";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-ExtraBold.ttf");
-}
+<CallIcon className='icon'/>
 
-@font-face {
-  font-family: "Poppins Light";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Light.ttf");
-}
 
-@font-face {
-  font-family: "Poppins Thin";
-  font-style: normal;
-  font-weight: normal;
-  src: url("./assets/fonts/Poppins-Thin.ttf");
-}
+<GitHubIcon className='icon'/>
+
+
+<LinkedInIcon className='icon'/>
+
+
+<TwitterIcon className='icon'/>
+
+
+<PinDropIcon className='icon'/>
+
+
+<div className='address'>
+          
+          <p>601/17G Indiabulls Greens, Panvel, Navi Mumbai, Maharashtra, 410206</p>
+      </div>

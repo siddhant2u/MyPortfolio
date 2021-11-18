@@ -69,7 +69,7 @@
 }
 
 .active {
-  background-color: rgb(161, 222, 230);
+  background-color: darkcyan;
   color: rgb(0, 0, 0);
   transition: all 0.8s ease;
 }
