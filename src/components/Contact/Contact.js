@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./../Contact/contact.css";
+import "/contact.css";
 import {
   ContactMail,
   Call,
