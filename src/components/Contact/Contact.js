@@ -1,12 +1,5 @@
 import { useState } from "react";
 import "./contact.css";
-import {
-  ContactMail,
-  Call,
-  GitHub,
-  LinkedIn,
-  Twitter,
-} from "@material-ui/icons";
 
 export default function Contact() {
   const [message, setMessage] = useState(false);
@@ -22,27 +15,22 @@ export default function Contact() {
           <h1 className="title"> Let's get <span>Connected..</span></h1>
         </div>
         <div className="email cont">
-          <ContactMail className="icon" />
           <span>{"  "}siddhant.contactme@gmail.com</span>
         </div>
         <div className="phone cont">
-          <Call className="icon" />
           <span>+91 9821363039</span>
         </div>
         <div className="github cont">
-          <GitHub className="icon" />
           <a href="https://github.com/siddhant2u">
             <span>siddhant2u</span>
           </a>
         </div>
         <div className="linkedin cont">
-          <LinkedIn className="icon" />
           <a href="https://www.linkedin.com/in/siddhant-priyadarshi/">
             <span>siddhant-priyadarshi</span>
           </a>
         </div>
         <div className="twitter cont">
-          <Twitter className="icon" />
           <a href="https://twitter.com/siddhant2u">
             <span>siddhant2u</span>
           </a>
