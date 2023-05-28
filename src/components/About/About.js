@@ -13,9 +13,11 @@ export default function About() {
             <div className="content-right">
                 <h1 className="aboutMe">About Me</h1>
                 <p className="para">Hello I am Siddhant Priyadarshi.<br></br>
-                A final year student at SRM Institute of Science and Technology pursuing B.Tech in Computer Science Engineering.
-                A tech enthusiast who likes to learn about new technology and work on it. Currently I am working on Blockchain and Web Development.
-                Photography is my passion and I love trying new things.</p>
+                A final year student at SRM Institute of Science and Technology, pursuing B.Tech in Computer Science Engineering. 
+                Passionate about technology and constantly seeking new opportunities to learn and grow. Specializing in Blockchain 
+                and Web Development, with a keen interest in exploring the latest advancements in these fields. Open to collaborations 
+                and excited to contribute to innovative projects. A dedicated individual with a love for photography and a penchant for 
+                trying new things. Let's connect and embark on a journey of knowledge and creativity together.</p>
             </div>
         </div>
     )
