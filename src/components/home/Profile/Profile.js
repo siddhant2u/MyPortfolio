@@ -1,5 +1,5 @@
 import React from "react";
-//import Typical from "react-typical";
+import Typical from "react-typical";
 import './Profile.css';
 import './resume.pdf';
 
@@ -33,7 +33,7 @@ const Profile = React.memo(() => {
             <span className="highlighted-text">Siddhant Priyadarshi</span>
           </div>
 
-          /*<div className="profile-details-role">
+          <div className="profile-details-role">
             <span className="primary-text">
               {" "}
               <h1>
@@ -53,7 +53,7 @@ const Profile = React.memo(() => {
                 />
               </h1>
             </span>
-          </div>*/
+          </div>
 
           <div className="profile-options">
             <a href="../../../assets/resume.pdf" download="resume.pdf">
