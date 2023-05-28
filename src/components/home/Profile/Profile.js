@@ -3,7 +3,7 @@ import Typical from "react-typical";
 import './Profile.css';
 import './resume.pdf';
 
-export default function Profile() {
+const Profile = React.memo(() => {
   return (
     <div className="profile-container">
       <div className="profile-parent">
@@ -55,7 +55,7 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-options">
-            <a href='resume' download="SiddhantResume.pdf">
+            <a href="../../../assets/resume.pdf" download="resume.pdf">
               <button className="btn">Download Resume</button>
             </a>
           </div>
@@ -66,4 +66,6 @@ export default function Profile() {
       </div>
     </div>
   );
-}
+});
+
+export default Profile;
